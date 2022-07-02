@@ -9,7 +9,7 @@
     
 </head>
 <body>
-    <?php include_once './../index.php' ?>
+    <?php include_once './../assets/navbar.php' ?>
     <div class="container mt-3">
         <div class="row">
             <div class="col-md-12">

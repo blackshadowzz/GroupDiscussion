@@ -8,7 +8,7 @@
     <?php include_once "./bootrap.php" ?>
 </head>
 <body>
-    <?php include_once './../index.php' ?>
+    <?php include_once './../assets/navbar.php' ?>
     
     <?php 
         require_once "./connectDB.php";
