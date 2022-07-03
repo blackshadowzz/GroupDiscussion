@@ -8,12 +8,10 @@
     <?php include_once './bootrap.php' ?>
 </head>
 <body>
-    
+    <?php include_once "./../assets/navbar.php" ?>
     <?php 
 
         require_once './connectDB.php';
-
-        
         $uname=$phone=$email=$pw="";
         $e_uname=$e_phone=$e_email=$e_pw="";
         //$conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);

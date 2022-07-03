@@ -57,7 +57,7 @@
                                     echo "<a href='./deleteData.php?id=".$adm['ID']."' class='bi bi-trash'></a>";
                                     // echo nl2br("\t");
                                     // echo "<a href='' class='bi bi-card-text'></a>";
-                                    echo nl2br("\t");
+                                    echo nl2br("\t| ");
                                     echo "<a href='./editData.php?id=".$adm['ID']."' class='bi bi-file-earmark-medical'></a>";
                                 echo "</td>";
                                 
@@ -74,7 +74,7 @@
                     <div class="card-footer">
                         <div class="mb-1 mt-1">
                             <a href="./insertData.php">
-                                <label for="" class="text-info" style="font-size: 20px;" >Create New</label>
+                                <label for="" class="text-info" style="font-size: 20px;" >Create New Admin</label>
                             </a>
                             
                         </div>
