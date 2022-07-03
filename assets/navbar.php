@@ -38,7 +38,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Admin</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./readData.php">View Datas</a></li>
+                                <li><a class="dropdown-item" href="./../admin/readData.php">View Datas</a></li>
                                 <li><a class="dropdown-item" href="./insertData.php">Create New</a></li>
                                 
                                 <li><hr class="dropdown-divider"></li>

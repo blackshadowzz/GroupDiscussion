@@ -60,13 +60,15 @@
             $pa_email=$email;
             $pa_pw=$pw;
             
-            if($stm->execute()){
+            if($stm->execute()){                
                 header("Location:readData.php");
                 exit;
             }
             else{
                 echo "Cannot update!";
             }
+        }else{
+            echo "Try again!";
         }
         
     ?>
